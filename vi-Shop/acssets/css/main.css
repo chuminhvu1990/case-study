@@ -761,7 +761,7 @@
 }
 .home-product-item:hover {
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.05);
-    transform: translateY(-2px);
+    transform: translateY(-1px);
 }
 .home-product-item__img {
     padding-top: 100%;
@@ -1000,8 +1000,6 @@
 }
 .product__info {
     position: relative;
-    background-color: var(--white-color);
-    padding: 16px 40px;
 
 }
 .rank {
@@ -1089,7 +1087,6 @@
 }
 .product__img img {
     width: 60%;
-    margin-left: 100px;
 }
 .btn--primary1 {
     color: var(--white-color);
@@ -1209,79 +1206,3 @@
     flex-direction: column;
     justify-content: center;
 }
-/* product infomation */
-.product__infomation {
-    padding: 16px;
-   background-color: var(--white-color);
-}
-.product__infomation h1 {
-    padding: 20px;
-    background-color: rgba(6, 6, 6, 0.02);
-}
-
-.infomation-link {
-    padding: 8px;
-    list-style: none;
-    color: #939393;
-    font-size: 1.4rem;
-}
-.info-link {
-    font-size: 1.4rem;
-    list-style: none;
-    padding: 8px;
-}
-.product__depiction p {
-    font-size: 1.4rem;
-    list-style: none;
-    line-height: 24px;
-}
-.product__depiction ,.danhgia {
-    padding: 16px;
-    background-color: var(--white-color);
-}
-.product__depiction h1 {
-    padding: 20px;
-    background-color: rgba(6, 6, 6, 0.02);
-}
-.danhgia h1 {
-    padding: 20px;
-    background-color: rgba(6, 6, 6, 0.02);
-}
-.danhgia span {
-    font-size: 1.8rem;
-    font-weight: 600;
-    padding: 16px 24px;
-}
-.RANKING1-1 {
-    background-color: var(--white-color);
-    border: 1px solid  #cecece;
-    margin: 8px 6px;
-    padding: 5px 0;
-    min-width: 100px;
-}.RANKING2-1 {
-    background-color: var(--white-color);
-    border: 1px solid  #cecece;
-    margin: 8px 6px;
-    padding: 5px 0;
-    min-width: 100px;
-}
-.RANKING2 {
-    margin-left: 109px;
-}
-.comment {
-    display: block;
-    padding: 8px 24px;
-    
-}
-.comment input {
-    width: 100%;
-    height: 30px;
-}
-.product__label {
-    background-color:var(--white-color);
-    padding: 16px;
-}
-.product__label h1 {
-    color: #999;
-}
-/* end product-infomation */
