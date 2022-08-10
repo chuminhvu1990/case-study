@@ -1,0 +1,19 @@
+#wrap{
+    background-color: #ddd;
+    padding: 50px 0;
+  }
+  #slider,#thumbnail_slider{
+    width: 300px;
+    margin: 0 auto 10px;
+  }
+  .slide-item{
+    img{
+      width: 100%;
+    }  
+  }
+  .thumbnail-item{
+    img{
+      width: 100%;
+      margin: 0 auto;
+    } 
+  }

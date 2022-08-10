@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="acssets/css/grid.css">
     <link rel="stylesheet" href="acssets/css/reponsive.css">
     <link rel="stylesheet" href="acssets/font/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" type="text/css"href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+   
 </head>
 <body>
     <div class="main">
@@ -25,7 +29,8 @@
                     
                 <li><a href="#"><button class="nav-bar-link">Home</button></a></li>
                 <li><button  class="dangky-btn-js nav-bar-link ">Đăng ký</button></li>
-                <li><button class="dangnhap-btn-js nav-bar-link ">Đăng nhập</button></li>
+                <li><button  class="dangnhap-btn-js nav-bar-link ">Đăng nhập</button></li>
+              
                 <li><button class="nav-bar-link">Đăng xuất</button></li>
                 </ul>
                 <div class="clear"></div>
@@ -105,15 +110,51 @@
                                 </div>
                         </li>
                         <li class="navbar-item">
-                            <a href="" class="navbar-item-link">
+                            <a href="#" class="navbar-item-link">
                                 <i class="fa-solid fa-circle-question"></i>
                                 Trợ giúp</a>
                         </li>
-                        <button class="navbar-item navbar-item--bold navbar-item--sapara js-dangky-btn" >
+                        <button id="dangky" class="navbar-item navbar-item--bold navbar-item--sapara js-dangky-btn" >
                             Đăng ký
                         </button>
-                        <button class="navbar-item navbar-item--bold dangnhap-js ">
-                           Đăng nhập
+                        <button id="dangnhap" class="navbar-item navbar-item--bold dangnhap-js ">
+                            Đăng nhập
+                        </button>
+                        <button  class="admin1">
+                            <span id="taikhoan" class="admin-name1">Minh Vu</span>
+                          
+                            <ul class="admin-info1">
+                                <li class="header-admin1">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header-admin1">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header-admin1">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header-admin1">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </button>
+                        <button class="admin">
+                            <img class="admin-img" src="acssets/img/68265229_2173412499434396_5850787656736178176_n.jpg" alt="">
+                            <span class="admin-name">Minh Vu</span>
+                            <ul class="admin-info">
+                                <li class="header-admin">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header-admin">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header-admin">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header-admin">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
                         </button>
                     </ul>
                 </nav>
@@ -224,48 +265,21 @@
                         <div class="row">
                         <div class="col l-5 m-0 c-0">
                             <div class="lider__header">
-                                <div class="lider__header-box">
-                                   <img src="acssets/img/chloe.jfif" alt="" class="feature">
-                                   <div class="control prev"><i class="fa-solid fa-arrow-left"></i></div>
-                                   <div class="control next"><i class="fa-solid fa-arrow-right"></i></div>
-                                </div>
-                                <div class="list-img">
-                                    <div>
-                                        <img src="acssets/img/chloe.jfif" alt="">
+                                <div class="wrapper">
+                                    <div class="slick">      
+                                      <img src="acssets/img/aven.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/chanel.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/chloe.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/coco.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/cocochanel.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/cooc.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/david.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/lanu.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/mi.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/si.jfif" alt="" srcset=""/>
+                                      <img src="acssets/img/sexymen.jfif" alt="" srcset=""/>
                                     </div>
-                                    <div>
-                                         <img  src="acssets/img/coco.jfif" alt="">
-                                    </div>
-                                    <div>
-                                        <img src="acssets/img/david.jfif" alt="">
-                                    </div>
-                                    <div>
-                                         <img src="acssets/img/cocochanel.jfif" alt="">
-                                    </div>
-                                    <div>
-                                        <img src="acssets/img/chanel.jfif" alt="">
-                                    </div>
-                                    <div>
-                                        <img src="acssets/img/aven.jfif" alt="">
-                                    </div>
-                                    <div>
-                                        <img src="acssets/img/cooc.jfif" alt="">
-                                    </div>
-                                    <div>
-                                        <img src="acssets/img/mi.jfif" alt="">
-                                    </div>
-                                    <div>
-                                        <img src="acssets/img/sexymen.jfif" alt="">
-                                    </div>
-                                    <div>
-                                        <img src="acssets/img/si.jfif" alt="">
-                                    </div>
-                                    <div>
-                                        <img src="acssets/img/lanu.jfif" alt="">
-                                    </div>
-                                   
-
-                                </div>
+                                  </div>
                             </div>
                         </div>
                         <div class="col l-7 m-0 c-0">
@@ -294,6 +308,9 @@
                                     </li>
                                 </ul>
                             </div>
+                            <button class="  addproduct btnthem" >Thêm</button>
+                           
+                            <button class="  xoabtn btnthem">Xóa</button>
                             <div class="home-page">
                                 <span class="home-page-number">
                                 <span>1</span>/10
@@ -807,7 +824,7 @@
                                         <i class=" like-icon-fill fas fa-heart like-js13  "></i>
                                     </a>
                                 </div>
-                                <div class="col l-2-4 m-4 c-6 column">
+                                <div  class="col l-2-4 m-4 c-6 column ">
                                     <a class="home-product-item product-js" href="product14.html" target="_blank">
                                         <div class="home-product-item__img" style="background-image: url(acssets/img/si.jfif);" >
                                         </div>
@@ -879,12 +896,48 @@
                                         
                                        
                                     </a>  
+                                    <a  class="product-item__like product-item__like--liked  ">
+                                        <i class=" like-icon-fill fas fa-heart like-js15  "></i>
+                                    </a>
+                                </div>
+                                <div id="addsp" class="col l-2-4 m-4 c-6 column add">
+                                    <a class="home-product-item product-js" href="product15.html" target="_blank" >
+                                        <div class="home-product-item__img" style="background-image: url(acssets/img/chloe.jfif);"  >
+                                        </div>
+                                        <h4 id="ptname" class="product-item__name">Nước hoa nữ Chloé Nomade EDP Women hương hoa cỏ cuốn hút 75ml</h4>
+                                        <div class="price">
+                                            <span id="old" class="price-old">640.000đ</span>
+                                            <span id="curent" class="price-curent">320.000đ</span>
+                                        </div>
+                                        <div class="product-item__action">
+                                            
+                                            <div class="product-item_star">
+                                                <i class="star-gold fa-solid fa-star"></i>
+                                                <i class="star-gold fa-solid fa-star"></i>
+                                                <i class="star-gold fa-solid fa-star"></i>
+                                                <i class="star-gold fa-solid fa-star"></i>
+                                                <i class="star-gold fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="product-item-sold"> 99 đã bán </span>
+                                        </div>
+                                        <div class="product-item__origin">
+                                            <span class="item__origin-name">Hà nội</span>
+                                    </div>
+                                        <div class="product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span> 
+                                        </div>
+                                        <div class="product-item__sale">
+                                            <span>50%</span>
+                                            <span>GIẢM</span>
+                                        </div>
+                                        
+                                       
+                                    </a>  
                                     <a class="product-item__like product-item__like--liked  ">
                                         <i class=" like-icon-fill fas fa-heart like-js15  "></i>
                                     </a>
                                 </div>
-
-                                
                                
                             </div>
                         </div>
@@ -1051,10 +1104,10 @@
                         
                     </div>
                     <div class="form__inputgruop">
-                        <input type="text" class="form__input" placeholder="Email...">
+                        <input id="Name" type="text" class="form__input" placeholder="Email...">
                     </div>
                     <div class="form__inputgruop">
-                        <input type="password" class="form__input" placeholder="Mật khẩu...">
+                        <input id="Password" type="password" class="form__input" placeholder="Mật khẩu...">
                     </div>
                     <div class="form__inputgruop">
                         <input type="password" class="form__input" placeholder=" Nhập lại mật khẩu...">
@@ -1068,7 +1121,7 @@
                 </div>
                 <div class="auth-form__controls">
                     <button class="btn back-btn back-js">TRỞ LẠI</button>
-                    <button class="btn  btn--primary">ĐĂNG KÝ</button>
+                    <button onclick="dangky()" class="btn  btn--primary">ĐĂNG KÝ</button>
                 </div>
                 <div class="auth-form__connect">
                     <a href="" class="btn btn-icon-size btn-icon">
@@ -1097,10 +1150,10 @@
                        
                     </div>
                     <div class="form__inputgruop">
-                        <input type="text" class="form__input" placeholder="Email...">
+                        <input id="email" type="text" class="form__input email" placeholder="Email...">
                     </div>
                     <div class="form__inputgruop">
-                        <input type="password" class="form__input" placeholder="Mật khẩu...">
+                        <input id="pass" type="password" class="form__input pass" placeholder="Mật khẩu...">
                     </div>
                   
                 </div>
@@ -1113,7 +1166,7 @@
                 </div>
                 <div class="auth-form__controls">
                     <button class="btn back-btn back-btn-js">TRỞ LẠI</button>
-                    <button class="btn  btn--primary">ĐĂNG NHẬP</button>
+                    <button  onclick="dangnhap()" class="btn  btn--primary dangnhap">ĐĂNG NHẬP</button>
                 </div>
                 <div class="auth-form__connect">
                     <a href="" class="btn btn-icon-size btn-icon">
@@ -1131,9 +1184,6 @@
             </div>
     </div>
     <script>
-        
-       
-      
         const product = document.querySelector('.product-js')
         product.addEventListener('click',function(event) {
             event.stopPropagation()
@@ -1200,7 +1250,8 @@
         likebtn15.addEventListener('click',function() {
             this.classList.toggle('red')
         })
-         // heart
+         // End heart
+        //  Đăng ký đăng nhập
         const DangkyBtn = document.querySelector('.js-dangky-btn')
         DangkyBtn.addEventListener('click',function() {
             modal.classList.add('open')
@@ -1260,66 +1311,101 @@
         })  
         Dangnhapmenubtn.addEventListener('click',function(){
             menu.classList.remove('open')
-        })     
+        }) 
+         // End Đăng ký đăng nhập    
     </script>
-    <!-- js slider -->
+   <!-- Hiệu ứng slide sử dụng thử viện slick -->
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+     <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script>
-        var imgFeature = document.querySelector('.feature')
-        var listImg = document.querySelectorAll('.list-img img')
-        var prevBtn = document.querySelector('.prev')
-        var nextBtn = document.querySelector('.next')
-        var currentIndex = 0;
-        function updateimg(index){
-            document.querySelectorAll('.list-img div').forEach(item=>{
-                item.classList.remove('active')
-            })
-            currentIndex = index
-            imgFeature.src = listImg[index].getAttribute('src')
-            listImg[index].parentElement.classList.add('active')
-        }
-        listImg.forEach((imgElement, index)=>{
-            imgElement.addEventListener('click',e=>{
-                imgFeature.style.opacity = '0'
-                setTimeout(()=>{
-                    updateimg(index)
-                    imgFeature.style.opacity = '1'
-                },400)
-               
-            })
-        })
-        prevBtn.addEventListener('click',e=>{
-            if (currentIndex == 0){
-                currentIndex = listImg.length -1
-
-            }else{
-                currentIndex--
-            }
-                imgFeature.style.animation = ''
-                setTimeout (()=>{
-                updateimg(currentIndex)
-                imgFeature.style.animation = 'sliderleft 1s ease-in-out forwards'
-            },200)
-            
-        })
-        nextBtn.addEventListener('click',e=>{
-            if (currentIndex == listImg.length -1){
-                currentIndex = 0
-                
-
-            }else{
-                currentIndex++
-                
-            }
-                imgFeature.style.animation = ''
-                setTimeout (()=>{
-                updateimg(currentIndex)
-                imgFeature.style.animation = ' sliderright 1s ease-in-out forwards'
-                
-            },200)
-            
-            
-        })
-  
+    $(document).ready(function () {
+      $(".slick").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true, autoplaySpeed: 2000,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 639,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+    });
     </script>
-</body>
+    <!-- js đăng nhập Admin -->
+    <script>
+        var arrayUser = []
+        function dangky() {
+            var user_Name = document.getElementById("Name").value
+            var user_pass = document.getElementById("Password").value
+           var  user = {
+                name :user_Name,
+                pass :user_pass
+            }
+            var user1 = {
+                name :"admin",
+                pass :"12345"
+            }
+            arrayUser.push(user)
+            arrayUser.push(user1)
+        
+            console.log(arrayUser)
+
+        }
+        function dangnhap() {
+            Login.classList.remove('open1')
+            var email = document.getElementById("email").value
+            var pass = document.getElementById("pass").value
+            if(email=="admin"&& pass=="12345"){  
+                    document.getElementById("dangky").style.display = "none"
+                    document.getElementById("dangnhap").style.display = "none"
+                    var admin = document.querySelector(".admin")
+                    admin.classList.add('open3') 
+            }
+            for(let i=0;i<arrayUser.length;i++) {
+                if(arrayUser[i].name==email && arrayUser[i].pass==pass){
+                        document.getElementById("dangky").style.display = "none"
+                        document.getElementById("dangnhap").style.display = "none"
+                        var admin1 = document.querySelector(".admin1")
+                        admin1.classList.add('open4') 
+                        document.getElementById("taikhoan").innerHTML=email
+                    
+                }
+                
+                
+            }
+            
+        }
+       
+    </script>
+    <!-- end admin -->
+    <!-- thêm sản phẩm -->
+    <script>
+        var add = document.querySelector(".addproduct")
+        add.addEventListener('click',function(){
+           var productName = prompt("productname: ")
+           var priceOld = prompt("price-Old: ")
+           var priceCurent = prompt("price-curent: ")
+         
+           document.getElementById("addsp").style.display = "block"
+           document.getElementById("ptname").innerHTML = productName
+           document.getElementById("old").innerHTML = priceOld
+           document.getElementById("curent").innerHTML = priceCurent
+           
+        })
+    </script>
 </html>

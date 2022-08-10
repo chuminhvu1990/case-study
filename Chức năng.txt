@@ -1,0 +1,6 @@
+Ứng dụng web bán hàng
+Chức năng :
+-Đăng nhập(phân quyền đăng nhập người dùng,đăng ký,đăng xuất
+-slide sản phẩm
+-Thêm vào giỏ hàng
+-Thêm,sửa,xóa sản phẩm
